@@ -1,5 +1,5 @@
 import CSS from 'csstype';
-import { Class } from '../../../../interfaces';
+import { Class } from '../../../interfaces';
 import { Button, Card, Col, ListGroup, Modal, Row, } from 'react-bootstrap'
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,7 +7,7 @@ import { faCalendarAlt, faClock, faEnvelope, faStar } from '@fortawesome/free-re
 import { faMapMarkerAlt, faStar as starComplete, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import axios from 'axios'
-import { ClasePorComprar } from '../../../../interfaces';
+import { ClasePorComprar } from '../../../interfaces';
 import getCookieValue from "../../cookieParser";
 import { string } from 'yup/lib/locale';
 
